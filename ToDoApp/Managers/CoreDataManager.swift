@@ -50,20 +50,18 @@ class CoreDataManager {
         let fetchRequest: NSFetchRequest<Todo> = Todo.fetchRequest()
         
         if let index = selectedScopeIndex, let text = targetText {
-            var filterKeyword = ""
             
-            switch index {
-            case 0:
-                filterKeyword = K.CoreData.SearchFilters.titleFilter
-            case 1:
-                filterKeyword = K.CoreData.SearchFilters.modifyTimeFilter
-            default:
-                print("Unknown selectedScopeIndex")
+            if index == K.CoreData.SearchFilters.titleSearchIndex {
+                
+                let predicate = NSPredicate(format: "\(K.CoreData.SearchFilters.titleFilter) \(K.CoreData.SearchFilters.filterRule)", text)
+                fetchRequest.predicate = predicate
+                
+            } else if index == K.CoreData.SearchFilters.timeSearchIndex {
+                
+                let sortDate = NSSortDescriptor(key: K.CoreData.SearchFilters.modifyTimeFilter, ascending: false)
+                fetchRequest.sortDescriptors = [sortDate]
+                
             }
-            
-            
-            let predicate = NSPredicate(format: "\(filterKeyword) \(K.CoreData.SearchFilters.filterRule)", text)
-            fetchRequest.predicate = predicate
         }
         
         do {

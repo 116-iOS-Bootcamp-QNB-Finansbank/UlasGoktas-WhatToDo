@@ -35,6 +35,8 @@ struct K {
             static let filterRule = "contains[c] %@"
             static let titleFilter = "title"
             static let modifyTimeFilter = "modifyTime"
+            static let titleSearchIndex = 0
+            static let timeSearchIndex = 1
         }
     }
     
