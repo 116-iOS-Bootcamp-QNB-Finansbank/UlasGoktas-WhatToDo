@@ -70,8 +70,8 @@ class TodoListViewController: UITableViewController {
         
         let alert = UIAlertController(title: "Add New Todo", message: nil, preferredStyle: .alert)
         let action = UIAlertAction(title: "Add", style: .default) { action in
-
-            CoreDataManager.saveObject(title: textField.text!, detail: nil, completionTime: nil, modifyTime: nil)
+            
+            CoreDataManager.saveObject(title: textField.text!, detail: nil, completionTime: nil, modifyTime: Date())
             
 //            //when new to-do is created go to details screen
 //            let detailsVC = DetailsViewController()
