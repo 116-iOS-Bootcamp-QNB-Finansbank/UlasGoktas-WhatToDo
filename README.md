@@ -89,10 +89,10 @@ What To Do is a simple To-do app written in Swift with Core Data.
 ## Screenshots
 
 ### Dark Mode
-<img src="https://github.com/UlasGoktas/ToDoApp/blob/master/images/DarkMode.png" width="1000">
+<img src="https://github.com/116-iOS-Bootcamp-QNB-Finansbank/UlasGoktas-WhatToDo/blob/master/images/DarkMode.png" width="1000">
 
 ### Light Mode
-<img src="https://github.com/UlasGoktas/ToDoApp/blob/master/images/LightMode.png" width="1000">
+<img src="https://github.com/116-iOS-Bootcamp-QNB-Finansbank/UlasGoktas-WhatToDo/blob/master/images/LightMode.png" width="1000">
 
 <!-- LICENSE -->
 ## License
