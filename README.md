@@ -24,7 +24,7 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#pods">Pods</a></li>
+<!--        <li><a href="#pods">Pods</a></li>-->
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
@@ -54,19 +54,19 @@ What To Do is a simple To-do app written in Swift with Core Data.
 <!-- GETTING STARTED -->
 ## Getting Started
 
-### Pods
-* [SwiftLint](https://cocoapods.org/pods/SwiftLint)
+<!--### Pods-->
+<!--* [SwiftLint](https://cocoapods.org/pods/SwiftLint) -->
 
 ### Prerequisites
 
 * iOS 13.0+
 * Xcode 11.0+
 * Swift 5.0+
-* Cocoapods
+<!--* Cocoapods-->
 
-  ```sh
-  sudo gem install cocoapods
-  ```
+<!--  ```sh-->
+<!--  sudo gem install cocoapods-->
+<!--  ```-->
 
 ### Installation
 
@@ -74,13 +74,13 @@ What To Do is a simple To-do app written in Swift with Core Data.
    ```sh
    git clone https://github.com/116-iOS-Bootcamp-QNB-Finansbank/UlasGoktas-WhatToDo.git
    ```
-2. Install Pods
+<!--2. Install Pods-->
+<!--   ```sh-->
+<!--   pod install-->
+<!--   ```-->
+2. Open Xcode workspace
    ```sh
-   pod install
-   ```
-3. Open Xcode workspace
-   ```sh
-   open ToDoApp.xcworkspace
+   open ToDoApp.xcodeproj
    ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -107,7 +107,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Ugur Ulas Goktas - u.ulas.goktas@gmail.com
 
 Project Link:
-    [https://github.com/UlasGoktas/ToDoApp](https://github.com/UlasGoktas/ToDoApp)
+    [https://github.com/UlasGoktas/ToDoApp](https://github.com/116-iOS-Bootcamp-QNB-Finansbank/UlasGoktas-WhatToDo)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
