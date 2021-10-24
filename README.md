@@ -72,7 +72,7 @@ What To Do is a simple To-do app written in Swift with Core Data.
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/UlasGoktas/ToDoApp.git
+   git clone https://github.com/116-iOS-Bootcamp-QNB-Finansbank/UlasGoktas-WhatToDo.git
    ```
 2. Install Pods
    ```sh
